@@ -13,11 +13,8 @@ namespace EvaText
 
             if (response1 == "Yes")
             {
-                Console.WriteLine("First we must stop by the Hill Center.");
-                Console.WriteLine();
+                Console.WriteLine("First we must stop by the Student Center.");
                 Console.WriteLine("Here we have to check your admissions status, and your financial status");
-                Console.WriteLine();
-                Console.WriteLine("After you clear both, we will head over to the book store and last we will have gained a large appetite!");
                 Console.WriteLine();
                 Console.WriteLine("Are you ready to enter The Student Center?");
 
@@ -42,7 +39,19 @@ namespace EvaText
                         Console.WriteLine("Congraduations!");
                         Console.Clear();
                         Console.WriteLine("You have been accepted but next we have to see if you can really afford our challenge!");
-                        Console.WriteLine();
+                        
+                        
+                        Console.WriteLine("Think of a number and do NOT forget it!");
+                        Console.WriteLine("Double Your Number\nThen add ten to your number.\nAFter that Half your number");
+                        Console.WriteLine("Last, take away the number you started with from your current number.");
+                        Console.WriteLine("What is your answer?");
+
+                        string financialAid = Console.ReadLine();
+                        if (financialAid == "5")
+                        {
+                            Console.WriteLine("You are officially a TAU Student!");
+                        }
+
                     }
                     else
                     {
@@ -69,14 +78,3 @@ namespace EvaText
         }
     }
 }
- ////Console.WriteLine("The UAB Rec Center is a good resource when trying to avoid freshman fifteen");
-                ////Console.WriteLine("");
-                ////Console.WriteLine("Would you like to tour the Rec Center?");
-
-                ////string response3 = Console.ReadLine();
-                ////if (response3 == "Yes")
-                ////{
-                ////    // Show Rec Center
-
-                ////}
-                ////else
